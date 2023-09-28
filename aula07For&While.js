@@ -1,3 +1,10 @@
+/*for: usado quando você sabe quantas vezes deseja repetir uma ação. 
+Você pode especificar um contador e uma condição de término.
+while: usado quando a condição de término não é conhecida e precisa ser verificada no início de cada iteração.
+do while: É semelhante ao while, mas garante que o bloco de código seja executado pelo menos uma vez 
+antes de verificar a condição. 
+Estruturas de for e while servem (entre outras coisas) para percorrer dados (dados de uma tabela, por exemplo)... */
+
 //For tradicional
 var carros = [
   { id: 1, modelo: "Citroen", dono: "Fulano", preco: 100000 },
@@ -50,4 +57,3 @@ do {
 {
 }
 console.log(textdw);
-
