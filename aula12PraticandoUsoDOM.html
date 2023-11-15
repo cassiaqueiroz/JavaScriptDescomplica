@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Praticando o uso do DOM</title>
+</head>
+
+<body>
+
+    <ul id="lista">
+        <li>Home</li>
+    </ul>
+
+    <div class="estilo">
+        Div 1, classe 'estilo'.
+    </div>
+    <div class="estilo">
+        Div 2, classe 'estilo'.
+    </div>
+    <p class="estilo">
+        Elemento p, classe 'estilo'.
+    </p>
+    <p>
+        Isso é <span class="estilo">um elemento span, classe 'estilo'</span>
+        dentro de um p.
+    </p>
+
+    <ul class="bandas">
+    </ul>
+
+    <p>Clique no botão a seguir e veja o resultado:</p>
+    <form name="formCadastro" onsubmit="validarForm()">
+        
+        <input type="button" onclick="exemploEvento()" value="Apresentar">
+        <hr><br>
+
+        <label>Nome</label>
+        <input type="text" id="nome"><br><br>
+
+        <label>Email</label>
+        <input type="email" id="email"><br><br>
+
+        <button type="submit" onclick="novoItem()">Cadastrar</button>
+        
+    </form>
+    <br>
+
+    <h1 id="passandoMouse" onmouseover="mousePorCima()" onmouseout="tirandoMouse()">
+        Troca texto
+    </h1>
+
+</body>
+
+<script src="aula12PraticandoUsoDOM.js"></script>
+
+</html>
